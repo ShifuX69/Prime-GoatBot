@@ -32,29 +32,23 @@ module.exports = {
   langs: {
     en: {
       reset:
-        "┌─『 Prefix Reset 』─┐\n"
-      + `│ ✅ Reset to default: %1\n`
-      + "└────────────────────┘",
+        "┌─『 Prefix Reset 』\n"
+      + `│ ✅ Reset to default: %1`,
       onlyAdmin:
-        "┌─『 Permission Denied 』─┐\n"
-      + "│ ⛔ Only bot admins can change global prefix!\n"
-      + "└──────────────────────────┘",
+        "┌─『 Permission Denied 』\n"
+      + "│ ⛔ Only bot admins can change global prefix!",
       confirmGlobal:
-        "┌─『 Global Prefix Change 』─┐\n"
-      + "│ ⚙️ React to confirm global prefix update.\n"
-      + "└────────────────────────────┘",
+        "┌─『 Global Prefix Change 』\n"
+      + "│ ⚙️ React to confirm global prefix update.",
       confirmThisThread:
-        "┌─『 Chat Prefix Change 』─┐\n"
-      + "│ ⚙️ React to confirm this chat's prefix update.\n"
-      + "└──────────────────────────┘",
+        "┌─『 Chat Prefix Change 』\n"
+      + "│ ⚙️ React to confirm this chat's prefix update.",
       successGlobal:
-        "┌─『 Prefix Updated 』─┐\n"
-      + `│ ✅ Global prefix: %1\n`
-      + "└─────────────────────┘",
+        "┌─『 Prefix Updated 』\n"
+      + `│ ✅ Global prefix: %1`,
       successThisThread:
         "┌─『 Prefix Updated 』─┐\n"
-      + `│ ✅ Chat prefix: %1\n`
-      + "└─────────────────────┘",
+      + `│ ✅ Chat prefix: %1\n`,
       myPrefix:
         "┌─『 Current Prefix 』─┐\n"
       + `│ 🌍 Global: %1\n`
@@ -118,7 +112,7 @@ module.exports = {
         + `║ 💬 Chatbox : ${threadPrefix}\n`
         + `║ ➤ ${threadPrefix}help to see all available cmds 🥵\n`
         + "╚═══════════════╝",
-        attachment: await utils.getStreamFromURL("https://files.catbox.moe/8ufjqu.jpg")
+        attachment: await utils.getStreamFromURL("https://files.catbox.moe/ykk54z.jpg")
       });
     }
   }
